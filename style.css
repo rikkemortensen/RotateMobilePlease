@@ -1,0 +1,22 @@
+h1 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: cadetblue;
+}
+
+#img1 {
+    margin: 35%;
+    opacity: 30%;
+    position: static;
+    z-index: 2;
+    animation: rotate 2s infinite ease-out;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
