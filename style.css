@@ -6,7 +6,7 @@ h1 {
 
 #img1 {
     margin: 35%;
-    opacity: 30%;
+    opacity: 40%;
     position: static;
     z-index: 2;
     animation: rotate 2s infinite ease-out;

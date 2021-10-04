@@ -10,10 +10,11 @@ if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navig
     // true for mobile device
     document.write("mobile device");
 
-    var mobile_orientation = window.orientation;
-    if (mobile_orientation == 0) {
+    if (window.innerHeight > window.innerWidth) {
         var timeout = setTimeout(function() {
             document.getElementById('img1').style.display = 'none';
         }, 3800)
+    } else {
+        document.getElementById('img1').style.display = 'none';
     }
 }
