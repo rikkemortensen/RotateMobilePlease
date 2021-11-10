@@ -16,7 +16,23 @@ h1 {
     0% {
         transform: rotate(0deg);
     }
+    10% {
+        transform: rotate(-10deg);
+    }
+    20% {
+        transform: rotate(0deg);
+    }
     100% {
         transform: rotate(90deg);
     }
 }
+
+
+/*@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}*/
